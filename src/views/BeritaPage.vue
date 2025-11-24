@@ -1,23 +1,5 @@
 <template>
   <div class="berita-page-wrapper">
-    <!-- Header -->
-    <header class="main-header">
-      <div class="main-container">
-        <div class="header-content">
-          <div class="site-logo">
-            <div class="logo-icon">🏛️</div>
-            <span class="logo-title">Kelurahan Kebagusan</span>
-          </div>
-          <nav class="main-nav">
-            <a href="#" class="nav-item">Beranda</a>
-            <a href="#" class="nav-item">Layanan Publik</a>
-            <a href="#" class="nav-item active">Berita</a>
-            <a href="#" class="nav-item">Profil Kelurahan</a>
-            <a href="#" class="nav-item">Kontak</a>
-          </nav>
-        </div>
-      </div>
-    </header>
 
     <!-- Hero Banner -->
     <section class="berita-hero">

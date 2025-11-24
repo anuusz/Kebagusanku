@@ -4,6 +4,7 @@ import HomePage from '@/views/HomePage.vue';
 import LayananPublik from '../views/LayananPublik.vue';
 import BeritaPage from '@/views/BeritaPage.vue';
 import ProfilKelurahan from '@/views/ProfilKelurahan.vue';
+import KontakPage from '@/views/KontakPage.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +28,11 @@ const router = createRouter({
     path: '/profil-kelurahan',
     name: 'profil-kelurahan',
     component: ProfilKelurahan
+  },
+  {
+    path: '/kontak',
+    name: 'kontak',
+    component: KontakPage
   }
 ]
 })

@@ -1,23 +1,5 @@
 <template>
   <div class="layanan-publik-wrapper">
-    <!-- Header -->
-    <header class="main-header">
-      <div class="main-container">
-        <div class="header-content">
-          <div class="site-logo">
-            <div class="logo-icon">🏛️</div>
-            <span class="logo-title">Kelurahan Kebagusan</span>
-          </div>
-          <nav class="main-nav">
-            <a href="#" class="nav-item">Beranda</a>
-            <a href="#" class="nav-item active">Layanan Publik</a>
-            <a href="#" class="nav-item">Berita</a>
-            <a href="#" class="nav-item">Profil Kelurahan</a>
-            <a href="#" class="nav-item">PPID</a>
-          </nav>
-        </div>
-      </div>
-    </header>
 
     <!-- Hero Banner -->
     <section class="layanan-hero">
@@ -788,7 +770,7 @@ export default {
   .layanan-hero-desc {
     font-size: 13px;
   }
-  
+
   .search-filter-wrapper {
     flex-direction: column;
   }
